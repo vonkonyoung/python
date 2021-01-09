@@ -1,0 +1,15 @@
+s=[1,2,3,4,6]
+print(s[0])
+t=(1,2,3)
+print(t.count(1))
+s={1,3,4,3}
+print(len(s))
+print(s)
+d={1:100,2:200,3:300}
+print(d.get(1))
+print(d.keys())
+print(d.values())
+i=iter(d)
+k=next(i)
+print(k)
+print(d[k])
